@@ -8,7 +8,7 @@ interface MainLayoutProps {
 export default function MainLayout(props: MainLayoutProps) {
   return (
     <div className="h-screen w-screen grid grid-rows-12">
-        <div className="row-span-1 bg-base">
+        <div className="row-span-1">
             <Header />
         </div>
         <div className="row-span-10">
