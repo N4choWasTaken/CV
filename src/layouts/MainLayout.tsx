@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 interface MainLayoutProps {
-    children: JSX.Element
+    children: JSX.Element | JSX.Element[]
     }
 
 export default function MainLayout(props: MainLayoutProps) {
