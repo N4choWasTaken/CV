@@ -14,7 +14,7 @@ export default function MainLayout(props: MainLayoutProps) {
         <div className="row-span-10">
             {props.children}
         </div>
-        <div className="row-span-1 bg-base">
+        <div className="row-span-1">
             <Footer />
         </div>
     </div>
