@@ -3,7 +3,7 @@ import VerticalHeader from '../components/VerticalHeader'
 
 interface PageLayoutProps {
     className?: string
-    children: JSX.Element
+    children: JSX.Element | JSX.Element[]
 }
 
 export default function PageLayout(props: PageLayoutProps) {
@@ -12,7 +12,7 @@ export default function PageLayout(props: PageLayoutProps) {
         <div className="row-span-11 col-span-1">
             <VerticalHeader />
         </div>
-        <div className="row-span-11 col-span-11">
+        <div className="row-span-11 col-span-11 overflow-x-auto overflow-y-hidden grid grid-flow-col auto-cols-[100%] snap-x snap-mandatory">        
             {props.children}
         </div>
         <div className="row-span-1 col-span-12">

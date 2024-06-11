@@ -9,7 +9,9 @@ export default function Cv() {
             <Hero />
         </MainLayout>
         <PageLayout className="snap-center">
-            <h1 className="text-5xl font-extrabold text-center">CV</h1>
+            <h1 className="text-5xl font-extrabold text-center h-full w-full snap-start">ZLI</h1>
+            <h1 className="text-5xl font-extrabold text-center h-full w-full snap-start">KPMG</h1>
+            <h1 className="text-5xl font-extrabold text-center h-full w-full snap-start">Now</h1>
         </PageLayout>
     </div>
   )
